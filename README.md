@@ -78,7 +78,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 ---
 
 ## 🐻 **About Me**
-Hi there! I'm [Your Name], a developer who loves creating fun and interactive projects. If you enjoyed this game, feel free to check out my other projects on [GitHub](https://github.com/EyuKaz) or say hi on [Twitter](https://twitter.com/EyuKaz)!
+Hi there! I'm Eyu, a developer who loves creating fun and interactive projects. If you enjoyed this game, feel free to check out my other projects on [GitHub](https://github.com/EyuKaz) or say hi on [Twitter](https://twitter.com/EyuKaz)!
 
 ---
 
