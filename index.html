@@ -3,22 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Rock Paper Scissors</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
 
-    <h1>Computer Choice: <span id="comp-choice"></span></h1>
-    <p>Computer Score: <span id="compScore"></span></p>
-    <h1>Your Choice: <span id="user-choice"></span></h1>
-    <p>Your Score: <span id="playerScore"></span></p>
-    <h1>Result: <span id="result"></span></h1>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #1e1e1e, #2d2d2d);
+            color: white;
+            padding: 2rem;
+        }
 
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    <button id="restart">restart</button>
+        h1 {
+            margin: 1rem 0;
+            font-size: 1.5rem;
+            color: #00ff9d;
+        }
 
+        .score-container {
+            display: flex;
+            gap: 3rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
 
-    <script src="app.js" charset="UTF-8"></script>
-</body>
-</html>
+        .choices {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        button {
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        #rock {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        #paper {
+            background: #4ecdc4;
+            color: white;
+        }
+
+        #scissors {
+            background: #45b7d1;
+            color: white;
+        }
+
+        #restart {
+            background: #ff9f43;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        #result {
+            font-size: 2rem;
+            margin: 2rem 
