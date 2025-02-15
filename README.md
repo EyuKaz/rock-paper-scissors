@@ -42,7 +42,7 @@ Want to play around with the code? Here's how to run it on your machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/EyuKaz/rock-paper-scissors.git
    ```
 2. **Navigate to the project folder**:
    ```bash
