@@ -17,7 +17,6 @@ You can play the game right now! It's hosted on GitHub Pages for your convenienc
 
 👉 **[Play Rock Paper Scissors Now!](https://eyukaz.github.io/rock-paper-scissors)** 👈
 
-*(Replace `your-username` and `your-repo-name` with your actual GitHub username and repository name!)*
 
 ---
 
